@@ -1,0 +1,241 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    z-index: 2;
+}
+
+.sk4-contrast-section {
+    position: relative;
+    background: linear-gradient(180deg, rgba(235,109,53,1) 0%, rgba(255,163,102,1) 62%, rgba(255,191,149,1) 76%, rgba(255,255,255,1) 76%);
+    color: white;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    top:60px;
+}
+
+.sk4-hero-image {
+    width: 100%;
+    position: relative;
+    margin: 650px auto 10px auto;
+    margin-left: 340px;
+}
+
+.swiper {
+    width: 100%;
+    /* background: linear-gradient(to bottom, #EB6D35, white);  */
+  }
+  
+  .swiper-slide {
+    position: relative;
+    width: 100%; 
+    max-width: 792px; 
+    margin: 0 30px;
+
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .swiperwrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+  }
+  
+
+.sk4-contrast-section .sk4-text {
+    position: relative; 
+    max-width: 792px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    
+    padding-top: 60px;
+    gap: 100px;
+}
+
+.sk4-text h1 {
+    color: #ffffff; 
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.1;
+    letter-spacing: 0.5%;
+    margin: 0 auto 40px auto;
+    margin-left: 50px;
+}
+
+.sk4-text h4 {
+    color: #EB6D35; 
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+    margin-left: 50px;
+}
+
+.sk4-text p {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5%;
+    margin-bottom: 24px;
+    line-height: 1.7;
+    font-feature-settings: "smcp" 1;
+    margin: 0 auto 40px auto;
+}
+ .value {
+    color: #EB6D35; 
+    font-weight: 500;
+}
+
+.sk4-content img {
+    width: 100%; 
+    align-self: flex-start; 
+    margin-bottom: 40px;
+    margin: 0 auto 40px ;
+}
+
+.sk4-content {
+    padding-top: 190px;
+    max-width: 792px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    gap: 100px;
+}
+
+.specifications-block {
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+    padding: 60px 16px;
+}
+
+.specifications-block h4 {
+    color: #EB6D35; 
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+    margin: 0 auto 40px auto;
+    margin-left: 30px;
+}
+
+.specifications-block .statement {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5%;
+    margin-bottom: 24px;
+    line-height: 1.7;
+    font-feature-settings: "smcp" 1;
+    margin: 0 auto 40px auto;
+}
+
+.specifications-block img {
+    width: 100%;
+    margin: 0 auto 40px auto;
+    display: block;
+    align-self: flex-start; 
+    margin-bottom: 40px;
+}
+
+.specs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+}
+
+.spec-item h5 {
+    color: #EB6D35;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.spec-item p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+footer {
+    background: linear-gradient(to bottom, #EB6D35, #FFA366);;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 16%;
+    align-items: flex-start; 
+    position: relative;
+}
+
+footer h2 {
+    font-size: 172px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; 
+    order: 1; 
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: left;
+}
+
+footer .current {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+footer .job-title {
+    font-size: 16px;
+}
+
+footer .navigate {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+footer nav {
+    font-size: 16px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer nav a:hover {
+    color: #000000;
+}

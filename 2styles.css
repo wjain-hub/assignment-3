@@ -1,0 +1,1062 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+section{
+    margin: 0 40px;
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 50px;
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hero-content{
+    z-index: 3;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    letter-spacing: -1%;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 177.77vh; 
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    filter: grayscale(100%);
+}
+#hero:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+
+.highlight {
+    color: #EB6D35;
+    font-weight: 700;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 14px;
+    background: transparent;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1.5px solid #EB6D35;
+    border-radius: 7px;
+    transition:0.3s ease;
+}
+
+.btn:hover {
+    background: #EB6D35;
+}
+
+.hero-footer {
+    position: absolute;
+    bottom: 30px; 
+    right: 50px;
+    display: flex;
+    gap: 40px; 
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 3;
+}
+
+.hero-footer .value {
+    color: #EB6D35; 
+    font-weight: 500;
+}
+/* OPTION 2 */
+
+
+header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 50px;
+    height: 60px; 
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #EB6D35;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center; 
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+section{
+    margin: 0 40px;
+}
+
+#hero {
+    background: url('https://media.newyorker.com/photos/5bfc71bde261232d2616f115/master/w_2240,c_limit/Lange-Dieter-Rams_01.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 50px;
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    letter-spacing: -1%;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.highlight {
+    color: #EB6D35;
+    font-weight: 700;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 14px;
+    background: transparent;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1.5px solid #EB6D35;
+    border-radius: 7px;
+    transition:0.3s ease;
+}
+
+.btn:hover {
+    background: #EB6D35;
+}
+
+.hero-footer {
+    position: absolute;
+    bottom: 30px; 
+    right: 50px;
+    display: flex;
+    gap: 40px; 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-footer .value {
+    color: #EB6D35; 
+    font-weight: 500;
+}
+
+
+#about {
+    padding-top: 70px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#about p {
+    max-width: 792px; 
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.5%;
+    margin-bottom: 16px; 
+}
+
+#about p1 {
+    max-width: 792px; 
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.5%;
+    margin-bottom: 60px; 
+}
+
+.image1 {
+    position: relative;
+    display: inline-block; 
+}
+
+.image1 img {
+    display: block;
+    width: 792px;
+    height: 528px;
+    margin-top: 20px; 
+}
+
+.info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 5px;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 0.5%;
+}
+
+#work {
+    margin-top: 100px; 
+    text-align: center;
+}
+
+#work h2 {
+    margin-bottom: 40px; 
+    font-size: 45px;
+}
+
+.grid-item img {
+    width: 100%; 
+    display: block;
+    margin-bottom: 24px;
+}
+.col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+footer {
+    background: #EB6D35;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer h2 {
+    font-size: 172px;
+    margin-bottom: 10px;
+}
+
+footer .current {
+    font-size: 20px;
+    margin: 0;
+    text-align: left; 
+    margin-left: 16%;
+    font-weight: 550; 
+}
+
+footer .job-title {
+    font-size: 16px;
+    margin: 0;
+    text-align: left; 
+    margin-left: 16%;
+}
+
+footer .navigate {
+    font-size: 20px;
+    margin: 0;
+    text-align: left; 
+    margin-left: 75%; 
+    font-weight: 550;
+
+}
+
+footer nav {
+    text-align: left;
+    margin-left: 75%; 
+    font-size: 16px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer nav a:hover {
+    color: #f1f1f1;
+}
+
+.swiper-pagination {
+    bottom: 0; /* Ensures it's below content */
+    margin-top: 40px; /* Adds spacing below the images */
+}
+
+.video-container{
+    position:absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.video-container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    #hero {
+        text-align: center;
+        justify-content: flex-start;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+        justify-content: flex-start;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+        justify-content: flex-start;
+    }
+
+    .hero-footer {
+        bottom: 20px;
+        right: auto;
+        left: 50%;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .image1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .grid-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-container {
+        flex-direction: column;
+        gap: 16px;
+        min-width: 100%;
+        width: 100%;
+    }
+
+    footer h2 {
+        font-size: 72px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        padding: 0 10%;
+        text-align: center;
+    }
+
+    .footer-left, .footer-right {
+        text-align: center;
+    }
+}
+
+
+/* SK4 STYLESS CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.sk4-content {
+    padding-top: 70px; 
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 792px;
+    text-align: left;
+    margin-bottom: 12px;
+    letter-spacing: 0.5%;
+}
+
+.sk4-text h1 {
+    color: #000000; 
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+}
+
+.sk4-text p {
+    max-width: 792px; 
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.5%;
+    margin-bottom: 32px;
+    line-height: 1.5;
+    letter-spacing: 0.5%;
+    font-feature-settings: "smcp" 1;
+}
+
+.sk4-content img {
+    width: 100%; 
+    max-width: 792px;
+    align-self: flex-start; 
+    margin-bottom: 60px;
+}
+
+.sk4-text h4 {
+    color: #000000; 
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+}
+
+
+/* Orange gradient background (spans the full width) */
+.sk4-contrast-section {
+    background: linear-gradient(to bottom, #EB6D35, #FFA366); /* Gradient */
+    color: white;
+    width: 100vw; /* Full width */
+    padding: 230px 32px; /* Padding to adjust content inside the gradient section */
+    position: absolute; /* Absolute positioning to take it out of flow */
+    top: 0; /* Start from the top of the page */
+    left: 0; /* Left-aligned to the viewport */
+    right: 0; /* Ensures it extends to the right edge */
+    z-index: -1; /* Ensures it stays behind content */
+    box-sizing: border-box; /* Makes sure padding doesn't affect width calculation */
+}
+
+
+
+.sk4-hero-image {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    position: relative;
+    margin: 390px auto 60px auto;
+    
+}
+
+
+/* option final for sk4 styles.css
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    margin-bottom: 0;
+    z-index: 2;
+}
+
+.sk4-contrast-section {
+    background: linear-gradient(to bottom, #EB6D35, #FFA366); 
+    color: white;
+    width: 100vw; 
+    padding: 270px 32px; /* Padding adjusted for content inside the section */
+    /* position: absolute; 
+    top: 0;
+    left: 0; 
+    right: 0; 
+    z-index: -1; 
+    box-sizing: border-box;
+}
+
+.sk4-hero-image {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    margin: 390px auto 60px auto;
+    
+}
+
+.sk4-contrast-section .sk4-text {
+    position: relative; 
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.sk4-text h1 {
+    color: #000000; 
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+}
+
+.sk4-text h4 {
+    color: #000000; 
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+}
+
+.sk4-text p {
+    max-width: 792px; 
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.5%;
+    margin-bottom: 32px;
+    line-height: 1.5;
+    letter-spacing: 0.5%;
+    font-feature-settings: "smcp" 1;
+}
+
+.sk4-content img {
+    width: 100%; 
+    max-width: 792px;
+    align-self: flex-start; 
+    margin-bottom: 60px;
+}
+
+.sk4-content {
+    padding-top: 190px;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+
+footer {
+    background: linear-gradient(to bottom, #EB6D35, #FFA366);;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 16%;
+    align-items: flex-start; 
+    position: relative;
+}
+
+footer h2 {
+    font-size: 172px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; 
+    order: 1; 
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: left;
+}
+
+footer .current {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+footer .job-title {
+    font-size: 16px;
+}
+
+footer .navigate {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+footer nav {
+    font-size: 16px;
+} */
+
+/* footer nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer nav a:hover {
+    color: #000000;
+} */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    z-index: 2;
+}
+
+.sk4-contrast-section {
+    background: linear-gradient(to bottom, #EB6D35, #FFA366); 
+    color: white;
+    width: 100vw; 
+    padding: 310px 32px; /* Padding adjusted for content inside the section */
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    right: 0; 
+    z-index: -1; 
+    box-sizing: border-box;
+}
+
+.sk4-hero-image {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    margin: 390px auto 60px auto;
+    
+}
+
+.sk4-contrast-section .sk4-text {
+    position: relative; 
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.sk4-text h1 {
+    color: #ffffff; 
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.1;
+    letter-spacing: 0.5%;
+}
+
+.sk4-text h4 {
+    color: #EB6D35; 
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+}
+
+.sk4-text p {
+    max-width: 792px; 
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5%;
+    margin-bottom: 24px;
+    line-height: 1.7;
+    font-feature-settings: "smcp" 1;
+}
+
+.sk4-text .value {
+    color: #EB6D35; 
+    font-weight: 500;
+}
+
+.sk4-content img {
+    width: 100%; 
+    max-width: 792px;
+    align-self: flex-start; 
+    margin-bottom: 40px;
+}
+
+.sk4-content {
+    padding-top: 190px;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    gap: 100px;
+}
+
+
+
+footer {
+    background: linear-gradient(to bottom, #EB6D35, #FFA366);;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 16%;
+    align-items: flex-start; 
+    position: relative;
+}
+
+footer h2 {
+    font-size: 172px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; 
+    order: 1; 
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: left;
+}
+
+footer .current {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+footer .job-title {
+    font-size: 16px;
+}
+
+footer .navigate {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+footer nav {
+    font-size: 16px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer nav a:hover {
+    color: #000000;
+}
+
+
+
+/* final */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    z-index: 2;
+}
+
+.sk4-contrast-section {
+    background: linear-gradient(to bottom, #EB6D35, #FFA366); 
+    color: white;
+    width: 100vw; 
+    padding: 310px 32px; /* Padding adjusted for content inside the section */
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    right: 0; 
+    z-index: -1; 
+    box-sizing: border-box;
+}
+
+.sk4-hero-image {
+    width: 100%;
+    position: relative;
+    margin: 650px auto 10px auto;
+    margin-left: 340px;
+    width: 100%; 
+    max-width: 792px; 
+    
+}
+
+.sk4-contrast-section .sk4-text {
+    position: relative; 
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.sk4-text h1 {
+    color: #ffffff; 
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.1;
+    letter-spacing: 0.5%;
+    margin: 0 auto 40px auto;
+    margin-left: 50px;
+}
+
+.sk4-text h4 {
+    color: #EB6D35; 
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+    margin-left: 50px;
+}
+
+.sk4-text p {
+    max-width: 792px; 
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5%;
+    margin-bottom: 24px;
+    line-height: 1.7;
+    font-feature-settings: "smcp" 1;
+    margin: 0 auto 40px auto;
+}
+
+.sk4-text .value {
+    color: #EB6D35; 
+    font-weight: 500;
+}
+
+.sk4-content img {
+    width: 100%; 
+    max-width: 792px;
+    align-self: flex-start; 
+    margin-bottom: 40px;
+    margin: 0 auto 40px ;
+}
+
+.sk4-content {
+    padding-top: 190px;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    gap: 100px;
+}
+
+.specifications-block {
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+    padding: 60px 16px;
+}
+
+.specifications-block h4 {
+    color: #EB6D35; 
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 0.5%;
+    margin: 0 auto 40px auto;
+    margin-left: 30px;
+}
+
+.specifications-block .statement {
+    max-width: 792px; 
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5%;
+    margin-bottom: 24px;
+    line-height: 1.7;
+    font-feature-settings: "smcp" 1;
+    margin: 0 auto 40px auto;
+}
+
+.specifications-block img {
+    width: 100%;
+    max-width: 792px;
+    margin: 0 auto 40px auto;
+    display: block;
+    align-self: flex-start; 
+    margin-bottom: 40px;
+}
+
+.specs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+}
+
+.spec-item h5 {
+    color: #EB6D35;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.spec-item p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+footer {
+    background: linear-gradient(to bottom, #EB6D35, #FFA366);;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 16%;
+    align-items: flex-start; 
+    position: relative;
+}
+
+footer h2 {
+    font-size: 172px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; 
+    order: 1; 
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: left;
+}
+
+footer .current {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+footer .job-title {
+    font-size: 16px;
+}
+
+footer .navigate {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+footer nav {
+    font-size: 16px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer nav a:hover {
+    color: #000000;
+}

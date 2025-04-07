@@ -1,0 +1,136 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 50px;
+    height: 60px; 
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #EB6D35;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center; 
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #EB6D35;
+}
+
+.contact-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #EB6D35, #FFA366);
+    color: white;
+    width: 100vw;
+    padding: 200px;
+    position: relative;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.contact-hero h1 {
+    font-size: 6vw;
+    font-weight: 600;
+    max-width: 800px;
+    color: #ffffff;
+}
+
+.contact-container {
+    margin: 0 auto;
+}
+
+.contact-image {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    z-index: 3;
+}
+
+#contact p,
+#contact ul li {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.address h5 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.contact-banner {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    object-fit: cover;
+    border-radius: 0;
+    margin-bottom: 60px;
+}
+
+#contact ul li a,
+.sub-headings a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+#contact ul li a::after,
+.sub-headings a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #EB6D35;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+#contact ul li a:hover::after,
+.sub-headings a:hover::after {
+    transform: scaleX(1);
+}
