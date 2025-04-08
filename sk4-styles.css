@@ -12,7 +12,7 @@ header {
 
 .sk4-contrast-section {
     position: relative;
-    background: linear-gradient(180deg, rgba(235,109,53,1) 0%, rgba(255,163,102,1) 62%, rgba(255,191,149,1) 76%, rgba(255,255,255,1) 76%);
+    background: linear-gradient(to bottom, #EB6D35, #FFA366); 
     color: white;
     box-sizing: border-box;
     /* height: 100vh; */
@@ -216,8 +216,14 @@ footer .current {
     margin-bottom: 4px;
 }
 
-footer .job-title {
-    font-size: 16px;
+footer .job-title a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer .job-title a:hover{
+    color: #FFF3E0;
 }
 
 footer .navigate {
@@ -237,5 +243,5 @@ footer nav a {
 }
 
 footer nav a:hover {
-    color: #000000;
+    color: #FFF3E0;
 }
