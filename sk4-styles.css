@@ -28,7 +28,7 @@ header {
 
 .swiper {
     width: 100%;
-    /* background: linear-gradient(to bottom, #EB6D35, white);  */
+    
   }
   
   .swiper-slide {
@@ -59,7 +59,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
-    
+    text-align: left;
     padding-top: 60px;
     gap: 100px;
 }
@@ -68,12 +68,9 @@ header {
     color: #ffffff; 
     font-weight: 700;
     font-size: 45px;
-    margin-bottom: 12px;
     text-align: left;
     line-height: 1.1;
     letter-spacing: 0.5%;
-    margin: 0 auto 40px auto;
-    margin-left: 50px;
 }
 
 .sk4-text h4 {
@@ -84,7 +81,7 @@ header {
     text-align: left;
     line-height: 1.4;
     letter-spacing: 0.5%;
-    margin-left: 50px;
+    
 }
 
 .sk4-text p {
@@ -134,7 +131,6 @@ header {
     line-height: 1.4;
     letter-spacing: 0.5%;
     margin: 0 auto 40px auto;
-    margin-left: 30px;
 }
 
 .specifications-block .statement {
@@ -244,4 +240,185 @@ footer nav a {
 
 footer nav a:hover {
     color: #FFF3E0;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  #mobile-nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+/* Mobile Styles */
+@media screen and (max-width: 550px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        height: auto;
+        width: 100%;
+        position: relative;
+        background: white;
+      }
+
+      #mobile-nav {
+        display: block;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        background: white;
+        padding: 20px;
+        opacity: 0;
+        transform: translateY(-10px);
+        pointer-events: none;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        left: 0;
+        right: 0;
+        width: 100vw;
+      }
+      
+      #mobile-nav.active {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+    
+      .hamburger {
+        display: block;
+        margin-left: auto; /* pushes it to the right */
+      }
+    
+      #mobile-nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    
+      #mobile-nav ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+      }
+    
+      #mobile-nav ul li a:hover {
+        color: #EB6D35;
+      }
+
+      body {
+        margin: 0;
+        overflow-x: hidden;
+      }
+
+    .sk4-contrast-section {
+        top: 1px; /* Adjusted for better spacing on mobile */
+        padding: 20px; /* Added padding */
+    }
+
+    .sk4-hero-image {
+        margin: 10px auto; /* Adjusted for center alignment on mobile */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .swiper-slide {
+        margin: 0 10px; /* Reduced margin for mobile */
+    }
+
+    .swiper-slide img {
+        width: 100%; /* Ensuring images fit the screen */
+        height: auto;
+    }
+
+    .sk4-text h1 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .sk4-text,
+    .sk4-content,
+    .specifications-block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sk4-text h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: left; 
+    }
+
+    .sk4-text p {
+        font-size: 16px;
+        margin: 0 0 20px 0; /* was centered */
+        text-align: left; /* was center */
+    }
+
+    .sk4-content img {
+        width: 100%; /* Ensure images fit on mobile */
+        margin: 0 auto 20px auto;
+    }
+
+    .specifications-block {
+        padding: 20px;
+    }
+
+    .specifications-block h4 {
+        font-size: 24px; /* Reduced font size */
+    }
+
+    .specifications-block .statement {
+        font-size: 16px; /* Reduced font size */
+    }
+
+    .specs-grid {
+        grid-template-columns: repeat(2, 1fr); /* Adjusted grid for mobile */
+    }
+
+    .spec-item h5 {
+        font-size: 16px; /* Reduced font size */
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer h2 {
+        font-size: 50px; /* Adjusted font size for mobile */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stacked layout for footer content */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-left, .footer-right {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .navigate {
+        font-size: 18px;
+    }
+
+    /* nav {
+        font-size: 14px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 14px;
+    } */
 }

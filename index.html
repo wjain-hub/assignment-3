@@ -14,22 +14,25 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html#hero">DR</a>
+          <a href="index.html#hero">DR</a>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#footer">Contact</a>
-                </li>
-            </ul>
+      
+        <div class="hamburger" id="hamburger">&#9776;</div>
+      
+        <nav id="mobile-nav">
+          <ul>
+            <li>
+                <a href="index.html#about">About</a>
+            </li>
+            <li>
+                <a href="index.html#work">Work</a>
+            </li>
+            <li>
+                <a href="sk4.html#footer">Contact</a>
+            </li>
+          </ul>
         </nav>
-    </header>
+      </header>
     
 
     <section id="hero">
@@ -182,7 +185,7 @@
             <div class="footer-left">
                 <p class="current">Contact: </p>
                 <p class="job-title">
-                    <a href="dieter.rams@braunarchive.com">Email</a> | 
+                    <a href="inquiry.archive@rams-foundation.org">Email</a> | 
                     <a href="https://www.vitsoe.com">Website</a> | 
                     <a href="https://www.vitsoe.com/us/voice/home-of-good-design">Location</a> </p>
             </div>
@@ -197,6 +200,15 @@
         </div>
     </footer>
     
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('mobile-nav');
+      
+        hamburger.addEventListener('click', () => {
+          nav.classList.toggle('active');
+        });
+    </script>
+      
       
     
 </body>

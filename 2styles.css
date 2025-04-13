@@ -1061,3 +1061,40 @@ footer nav a {
 footer nav a:hover {
     color: #000000;
 }
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    height: auto;
+  }
+
+  /* Hamburger visible on mobile */
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    color: #EB6D35;
+    cursor: pointer;
+  }
+
+  /* Initially hide the nav */
+  #mobile-nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+  }
+
+  /* Show nav when active */
+  #mobile-nav.active ul {
+    display: flex;
+  }
+
+  nav ul li {
+    margin-left: 0;
+  }
