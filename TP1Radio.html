@@ -16,22 +16,25 @@
 
   <header>
     <div class="logo">
-        <a href="index.html#hero">DR</a>
+      <a href="index.html#hero">DR</a>
     </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html#about">About</a>
-            </li>
-            <li>
-                <a href="index.html#work">Work</a>
-            </li>
-            <li>
-                <a href="TP1Radio.html#footer">Contact</a>
-            </li>
-        </ul>
+  
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  
+    <nav id="mobile-nav">
+      <ul>
+        <li>
+            <a href="index.html#about">About</a>
+        </li>
+        <li>
+            <a href="index.html#work">Work</a>
+        </li>
+        <li>
+            <a href="sk4.html#footer">Contact</a>
+        </li>
+      </ul>
     </nav>
-</header>
+  </header>
 
    
         <div class="sk4-hero-section">
@@ -117,13 +120,22 @@
                   <div class="footer-right">
                       <p class="navigate">Navigate:</p>
                       <nav>
-                          <a href="#about">About</a> | 
-                          <a href="#work">Work</a> | 
+                          <a href="index.html#about">About</a> | 
+                          <a href="index.html#work">Work</a> | 
                           <a href="#footer">Contact</a>
                       </nav>
                   </div>
               </div>
           </footer>
+
+    <script>
+            const hamburger = document.getElementById('hamburger');
+        const mobileNav = document.getElementById('mobile-nav');
+        
+        hamburger.addEventListener('click', () => {
+            mobileNav.classList.toggle('active');
+        });
+    </script>
 
 </body>
 </html>

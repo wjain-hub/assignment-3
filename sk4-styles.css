@@ -385,7 +385,16 @@ footer nav a:hover {
         grid-template-columns: repeat(2, 1fr); /* Adjusted grid for mobile */
     }
 
+    .spec-item {
+        padding: 10px; /* Added padding for better spacing */
+        text-align: left;
+    }
+
     .spec-item h5 {
+        font-size: 16px; /* Reduced font size */
+    }
+
+    .spec-item p {
         font-size: 16px; /* Reduced font size */
     }
 
