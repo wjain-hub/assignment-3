@@ -15,7 +15,6 @@ header {
     background: linear-gradient(to bottom, #EB6D35, #FFA366); 
     color: white;
     box-sizing: border-box;
-    /* height: 100vh; */
     top:60px;
 }
 
@@ -292,7 +291,7 @@ footer nav a:hover {
     
       .hamburger {
         display: block;
-        margin-left: auto; /* pushes it to the right */
+        margin-left: auto;
       }
     
       #mobile-nav ul {
@@ -321,22 +320,22 @@ footer nav a:hover {
       }
 
     .sk4-contrast-section {
-        top: 1px; /* Adjusted for better spacing on mobile */
-        padding: 20px; /* Added padding */
+        top: 1px; 
+        padding: 20px;
     }
 
     .sk4-hero-image {
-        margin: 10px auto; /* Adjusted for center alignment on mobile */
+        margin: 10px auto; 
         margin-left: 0;
         margin-right: 0;
     }
 
     .swiper-slide {
-        margin: 0 10px; /* Reduced margin for mobile */
+        margin: 0 10px; 
     }
 
     .swiper-slide img {
-        width: 100%; /* Ensuring images fit the screen */
+        width: 100%; 
         height: auto;
     }
 
@@ -360,12 +359,12 @@ footer nav a:hover {
 
     .sk4-text p {
         font-size: 16px;
-        margin: 0 0 20px 0; /* was centered */
-        text-align: left; /* was center */
+        margin: 0 0 20px 0; 
+        text-align: left; 
     }
 
     .sk4-content img {
-        width: 100%; /* Ensure images fit on mobile */
+        width: 100%; 
         margin: 0 auto 20px auto;
     }
 
@@ -374,28 +373,28 @@ footer nav a:hover {
     }
 
     .specifications-block h4 {
-        font-size: 24px; /* Reduced font size */
+        font-size: 24px; 
     }
 
     .specifications-block .statement {
-        font-size: 16px; /* Reduced font size */
+        font-size: 16px; 
     }
 
     .specs-grid {
-        grid-template-columns: repeat(2, 1fr); /* Adjusted grid for mobile */
+        grid-template-columns: repeat(2, 1fr); 
     }
 
     .spec-item {
-        padding: 10px; /* Added padding for better spacing */
+        padding: 10px; 
         text-align: left;
     }
 
     .spec-item h5 {
-        font-size: 16px; /* Reduced font size */
+        font-size: 16px; 
     }
 
     .spec-item p {
-        font-size: 16px; /* Reduced font size */
+        font-size: 16px; 
     }
 
     footer {
@@ -403,11 +402,11 @@ footer nav a:hover {
     }
 
     footer h2 {
-        font-size: 50px; /* Adjusted font size for mobile */
+        font-size: 50px; 
     }
 
     .footer-content {
-        flex-direction: column; /* Stacked layout for footer content */
+        flex-direction: column; 
         align-items: center;
         justify-content: center;
     }
@@ -420,14 +419,4 @@ footer nav a:hover {
     .navigate {
         font-size: 18px;
     }
-
-    /* nav {
-        font-size: 14px;
-    }
-
-    nav a {
-        display: inline-block;
-        margin: 0 10px;
-        font-size: 14px;
-    } */
 }

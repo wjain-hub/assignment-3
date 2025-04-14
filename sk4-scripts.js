@@ -21,18 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
           el: ".swiper-pagination",
         },
       });
-    //   const swiperAutoplay = new Swiper(".mySwiper", {
-    //     spaceBetween: 50,
-    //     centeredSlides: true,
-    //     autoplay: {
-    //       delay: 2800,
-    //       disableOnInteraction: false,
-    //     },
-    //     pagination: {
-    //       el: ".swiper-pagination",
-    //       clickable: true,
-    //     },
-    //   });
     };
     document.head.appendChild(script);
   });
